@@ -1,0 +1,135 @@
+body{
+    background-image: url("https://uploads.onecompiler.io/43r3uryza/43sn5f2zv/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.daiki{
+    margin-bottom: 40px;
+}
+h3 {
+    color: rgba(237, 31, 31, 0.921);
+    font-size: 30px;
+}
+
+section a {
+    margin-top: 10px;
+    color: white;
+    text-decoration:none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+section a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+/* Alinhamento */
+.texto1{
+    margin-bottom: 85px;
+}
+.texto2{
+    margin-bottom: 30px;
+}
+/* Chefes */
+section{
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.caixa section{
+    margin: 5px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa section p{
+    margin-right: 50px;
+    margin-left: 40px;
+    font-size: 19px;
+}
+/* Logo */
+
+.logo img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav a:hover {
+    color: rgba(235, 28, 28, 0.729);
+    text-decoration: underline;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin: 20px auto;
+  }
+  button {
+    background-color: rgba(235, 28, 28, 0.729);
+    border-radius: 20px;
+    border: none;
+    color: rgb(209, 183, 183);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgba(255, 2, 2, 0.285);
+    color: rgb(235, 223, 223);
+}

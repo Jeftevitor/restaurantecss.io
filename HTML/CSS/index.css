@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://uploads.onecompiler.io/43s6e2a5d/43s6e2tbe/bem-vindo_20250729_204420_0000.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px; 
+    padding: 20px;
+    background-color: transparent;
+}
+a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+select:hover,a:hover{
+    color: rgba(235, 28, 28, 0.729);
+    text-decoration: underline;
+}
+
+select {
+    border: none;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+option {
+    background-color: black;
+    color: white;            
+    padding: 10px;
+    font-size: 18px;
+   border: none;
+}

@@ -1,0 +1,99 @@
+body{
+    background-image: url("https://uploads.onecompiler.io/43r3uryza/43sn5f2zv/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+h1{
+    font-size: 40px;
+}
+h1, h2{
+    color: rgba(235, 28, 28, 0.729);
+}
+section{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center; 
+}
+section a{
+    margin-top: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+section p{
+    font-size: 20px;
+}
+section a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Logo */
+
+.logo img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav a:hover {
+    color: rgba(235, 28, 28, 0.729);
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
+button {
+    background-color: rgba(235, 28, 28, 0.729);
+    border-radius: 20px;
+    border: none;
+    color: rgb(209, 183, 183);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgba(255, 2, 2, 0.285);
+    color: rgb(235, 223, 223);
+}

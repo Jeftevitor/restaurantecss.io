@@ -1,0 +1,92 @@
+body{
+    background-image: url("https://uploads.onecompiler.io/43r3uryza/43sn5f2zv/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+h1{
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 35px;
+}
+h1, h3, h4{
+    color: rgba(235, 28, 28, 0.729);
+}
+h3{
+    font-size: 30px;
+}
+
+.restaurante{
+    padding: 5px;
+}
+/* Chefes */
+section{
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.caixa article{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Logo */
+
+.logo img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav a:hover {
+    color: rgba(235, 28, 28, 0.729);
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
